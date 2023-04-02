@@ -14,8 +14,8 @@ This will create an executable named rsa in the current directory.<br/>
 To use the program, you need to provide a string as an argument to the executable. This string will be encrypted using RSA, then decrypted and printed to the console.<br/>
 
 Here's an example :
-
-``./rsa "Hello, world !"``
+<br/>
+``./rsa "Hello, world !"``<br/>
 This will output the following:
 
 
