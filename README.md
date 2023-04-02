@@ -16,13 +16,13 @@ To use the program, you need to provide a string as an argument to the executabl
 Here's an example :
 <br/>
 ``./rsa "Hello, world !"``<br/> <br/>
-This will output the following:
+This will output the following :
 
 
-<br/> <br/>
+<br/> 
 ``Text to encrypt : Hello, world !``<br/>
 ``Generation ended.``<br/>
 ``Encoded ciphered : Vq3qHvGZL0gE8RmrDzH7jXTQ/g9XW1g8Q5S5sh5h5+vB+DJWw+sC4O4t4h4tYbY9TDgsTOtZrDmF7aLfvvPg==``<br/>
-``Decoded cipher  : Hello, world !``<br/>
+``Decoded cipher  : Hello, world !``<br/> <br/>
 Note that the program generates a public and a private key in the current directory named rsa-public.key and rsa-private.key, respectively. These keys are used for the encryption and decryption operations.
 
