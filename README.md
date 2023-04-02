@@ -1,5 +1,5 @@
 # RSA Encryption and Decryption using Crypto++
-This project demonstrates RSA encryption and decryption using the Crypto++ library in C++.
+This project demonstrates RSA encryption and decryption using the Crypto++ library (870) in C++11.
 
 ## Compilation
 To compile the project, you need to have the Crypto++ library installed on your system. If you are on Linux or macOS, you can install it using your system's package manager. On Windows, you can download the pre-built binaries from the Crypto++ website. <br/>
@@ -7,7 +7,7 @@ To compile the project, you need to have the Crypto++ library installed on your 
 Once you have the library installed, you can compile the project by running the following command :
 
 
-``g++ -o rsa rsa.cpp -lcryptopp``
+``g++ -std=c++11 -o rsa rsa.cpp -lcryptopp``
 This will create an executable named rsa in the current directory.<br/>
 
 ## Usage
